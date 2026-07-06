@@ -1,11 +1,11 @@
 {
-  "name": "my-vue-app",
+  "name": "shoreline-wellness",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "watch": " npx tailwindcss -i src/index.css -o ./dist/output.css --watch",
+    "watch": "npx tailwindcss -i src/index.css -o ./dist/output.css --watch",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -14,10 +14,10 @@
     "vite": "^6.0.11"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@tailwindcss/vite": "^4.0.0",
     "autoprefixer": "^10.4.20",
     "flowbite": "^3.0.0",
-    "postcss": "^8.5.1",
-    "@tailwindcss/postcss": "^4.0.0",
-    "@tailwindcss/vite": "^4.0.0"
+    "postcss": "^8.5.1"
   }
 }

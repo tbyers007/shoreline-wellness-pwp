@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a2d74aa8-9a0d-4655-bada-104dd8b1b865" name="shoreline-wellness-pwp" url="http://ddfullstack.cloud/~tbyers007/shoreline-wellness-pwp">
+        <fileTransfer rootFolder="/home/tbyers007/public_html/shoreline-wellness-pwp" accessType="SFTP" host="ddfullstack.cloud" port="22" sshConfigId="9fe061dd-4285-40c0-8a55-b541a5f78f87" sshConfig="tbyers007@ddfullstack.cloud:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
