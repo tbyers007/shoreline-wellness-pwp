@@ -1,603 +1,512 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Vite App</title>
     <link href="/src/index.css" rel="stylesheet">
 
-  </head>
-  <body>
+</head>
+<body>
 
-  <section class="
-    relative
-    min-h-screen
-    bg-[url('/img/header-image.png')]
-    bg-cover
+<section class="relative min-h-screen bg-[url('/img/header-image.png')] bg-cover bg-no-repeat">
+    <nav class=" w-full z-20 fixed top-0  bg-[#FAF8F4]/30 backdrop-blur-md ">
 
-    bg-no-repeat
-    bg-[position:70%_center]
-    md:bg-[position:85%_center]
-  ">
-  <nav class=" w-full z-20 fixed top-0  bg-[#FAF8F4]/30 backdrop-blur-md ">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4  ">
 
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4  ">
-      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-<span>SHORELINE</span>
+            <div class="flex flex-col">
 
-      </a>
-      <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        <button type="button" class="text-[#5F7F7B] bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">Book a Session</button>
-        <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
-          <span class="sr-only">Open main menu</span>
-          <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
-        </button>
-      </div>
-      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-10 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
-          <li>
-            <a href="#home" class="block hover:text-[#5F7F7B] tracking-[0.02em] text-stone-700 text-sm font-medium py-2 px-3  bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Home</a>
-          </li>
-          <li>
-            <a  href="#approach" class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Approach</a>
-          </li>
-          <li>
-            <a href="#services" class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Services</a>
-          </li>
-          <li>
-            <a href="#andrea" class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Andrea</a>
-          </li>
-          <li>
-            <a href="#learn-more" class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Learn More</a>
-          </li>
-          <li>
-            <a href="#connect" class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Connect</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+                <span class="text-stone-700 text-lg font-medium">SHORELINE</span>
+                <span class=" text-stone-700 text-lg font-medium">WELLNESS</span>
+
+            </div>
 
 
-<!--    HERO SECTION   -->
-  <section id ="home"  class="    min-h-screen px-15 md:px-25">
+            <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button type="button"
+                        class="] bg-brand hover:bg-brand-strong box-border  focus:ring-4 focus:ring-brand-medium shadow-xs font-medium  rounded-base text-sm px-3 py-2 focus:outline-none   border border-[#5F7F7B] text-[#5F7F7B]   text-center rounded-full leading-8 hover:bg-[#5F7F7B] hover:text-white ">
+                    Book a Session
+                </button>
+                <button data-collapse-toggle="navbar-cta" type="button"
+                        class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
+                        aria-controls="navbar-cta" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                         fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                              d="M5 7h14M5 12h14M5 17h14"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-10 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
+                    <li>
+                        <a href="#home"
+                           class="block hover:text-[#5F7F7B] tracking-[0.02em] text-stone-700 text-sm font-medium py-2 px-3  bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
+                           aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#approach"
+                           class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Approach</a>
+                    </li>
+                    <li>
+                        <a href="#services"
+                           class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Services</a>
+                    </li>
+                    <li>
+                        <a href="#andrea"
+                           class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Andrea</a>
+                    </li>
+                    <li>
+                        <a href="#learn-more"
+                           class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Learn
+                            More</a>
+                    </li>
+                    <li>
+                        <a href="#connect"
+                           class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <div class="max-w-lg  pb-4 md:max-w-3xl md:pt-32 pt-60">
-      <h1 class="max-w-3xl text-5xl md:text-7xl font-serif leading-[1.1] tracking-[-0.03em] mb-6 text-[#2B2623]"> Healing begins when the body feels safe enough to heal.</h1>
-      <h4 class="text-md text-gray-800 font-sans pt-10 tracking-[0.18em] uppercase ">GENTLE CRANIOSACRAL THERAPY AND INTEGRATIVE HEALING FOR EVERY STAGE OF LIFE</h4>
-    </div>
 
-    <div class="mt-8">
-      <button class="bg-[#5F7F7B] text-sm text-white px-8 py-4 text-center rounded-full leading-8">Book a Session</button>
-    </div>
+    <!--    HERO SECTION   -->
+    <section id="home" class="    min-h-screen px-15 md:px-25">
 
-  </section>
+        <div class="max-w-lg  pb-4 md:max-w-3xl md:pt-32 pt-60">
+            <h1 class="max-w-3xl text-5xl md:text-7xl font-serif leading-[1.1] tracking-[-0.03em] mb-6 text-[#2B2623]">
+                Healing begins when the body feels safe enough to heal.</h1>
+            <h4 class="text-md text-gray-800 font-sans pt-10 tracking-[0.18em] uppercase ">GENTLE CRANIOSACRAL THERAPY
+                AND INTEGRATIVE HEALING FOR EVERY STAGE OF LIFE</h4>
+        </div>
 
-  </section>
+        <div class="mt-8">
+            <button class="bg-[#5F7F7B] text-sm text-white px-8 py-4 text-center rounded-full leading-8">Book a
+                Session
+            </button>
+        </div>
+
+    </section>
+
+</section>
 
 
 <!--  APPROACH / ABOUT THE PRACTICE  -->
-  <section  id="approach" class="  bg-[#FAF8F4]  py-20 ">
-    <div class=" md:flex md:flex-row  min-h-screen    flex flex-col gap-10  md:justify-between  px-15 md:px-25 py-20">
+<section id="approach" class="  bg-[#FAF8F4]  ">
+    <div class=" md:flex md:flex-row  min-h-screen  flex flex-col gap-10  md:justify-between  px-25 md:px-35 pt-30 py-20">
 
-<div class="md:w-3/5 max-w-2xl">
-      <p class="mb-4 text-xs uppercase tracking-[0.22em] text-[#5F7F7B]">Our Approach</p>
-    <h1 class="text-4xl md:text-7xl  font-serif leading-tight text-[#1F292B]">A gentle approach to healing.</h1>
-    <p class="mt-6 text-base leading-8 text-[#3F4648]">We believe that healing happens when the body feels safe, supported, and truly listened to. Through gentle, nervous system-centered care, we create space for the body's natural wisdom to emerge and restore balance. Whether you are seeking support for yourself, your child, or your family, our approach honors each person's unique experience and healing journey.</p>
-</div>
+        <div class="md:w-3/5 max-w-2xl">
+            <p class="mb-4 text-xs uppercase tracking-[0.22em] text-[#5F7F7B]">Our Approach</p>
+            <h1 class="text-4xl md:text-7xl  font-serif leading-tight text-[#1F292B]">A gentle approach to healing.</h1>
+            <p class="mt-6 text-base leading-8 text-[#3F4648]">We believe that healing happens when the body feels safe,
+                supported, and truly listened to. Through gentle, nervous system-centered care, we create space for the
+                body's natural wisdom to emerge and restore balance. Whether you are seeking support for yourself, your
+                child, or your family, our approach honors each person's unique experience and healing journey.</p>
+        </div>
 
-    <div class="overflow-hidden rounded-3xl md:w-2/5">
-      <img src="/img/ceramic.jpg" class=" h-[360px] w-full object-cover  md:h-[500px]  rounded-3xl">
+        <div class="overflow-hidden rounded-3xl md:w-2/5">
+            <img src="/img/ceramic.jpg" class=" h-[360px] w-full object-cover  md:h-[500px]  rounded-3xl">
+        </div>
+
     </div>
-
-    </div>
-  </section>
+</section>
 
 
 <!--  SERVICES SECTION   -->
 <section id="services">
-<!--  SERVICES WRAPPER-->
-  <div class=" bg-[#FAF8F4] px-6 py-20">
+    <!--  SERVICES WRAPPER-->
+    <div class=" bg-[#FAF8F4] px-6 py-20">
 
-    <div class="mb-10">
-    <p class="mb-4 text-xs uppercase tracking-[0.22em] text-[#5F7F7B] text-center">SERVICES</p>
-    <h2 class="font-cormorant text-4xl md:text-5xl lg:text-6xl leading-[0.95] tracking-[-0.02em] text-slate-800 text-center">Care for every stage of life</h2>
-    </div>
+        <div class="mb-10">
+            <p class="mb-4 text-xs uppercase tracking-[0.22em] text-[#5F7F7B] text-center">SERVICES</p>
+            <h2 class="font-cormorant text-4xl md:text-5xl lg:text-6xl leading-[0.95] tracking-[-0.02em] text-slate-800 text-center">
+                Care for every stage of life</h2>
+        </div>
 
-<!--    CARD CONTAINER   -->
-    <div class="grid gap-8 md:grid-cols-2 ">
+        <!--    CARD CONTAINER   -->
+        <div class="grid gap-8 md:grid-cols-2 ">
 
-<!--      CARD     -->
-    <div class="
-    bg-white
-    rounded-3xl
-    overflow-hidden
-    shadow-sm
-    hover:shadow-md
-    transition
-    duration-300
+            <!--      CARD     -->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition duration-300
 ">
 
-      <!-- Image -->
-      <div class="h-64 overflow-hidden">
-        <img
-                src="https://placehold.co/600x400"
-                alt=""
-                class="
-                w-full
-                h-full
-                object-cover
-                transition
-                duration-500
-                hover:scale-105
-            "
-        >
-      </div>
+                <!-- Image -->
+                <div class="h-64 overflow-hidden">
+                    <img
+                            src="https://placehold.co/600x400"
+                            alt=""
+                            class="w-full h-full object-cover transition duration-500 hover:scale-105"
+                    >
+                </div>
 
-      <!-- Content -->
-      <div class="p-8">
+                <!-- Content -->
+                <div class="p-8">
 
-        <h3 class="
-            mb-4
-            font-serif
-            text-3xl
-            leading-tight
-            text-slate-800
-        ">
-          Craniosacral Therapy
-        </h3>
+                    <h3 class="mb-4 font-serif text-3xl leading-tight text-slate-800">
+                        Craniosacral Therapy
+                    </h3>
 
-        <p class="
-            text-slate-600
-            leading-8
-        ">
-          Gentle, hands-on therapy that supports the nervous system
-          and the body's natural ability to heal and restore balance.
-        </p>
+                    <p class="text-slate-600 leading-8">
+                        Gentle, hands-on therapy that supports the nervous system
+                        and the body's natural ability to heal and restore balance.
+                    </p>
 
-      </div>
+                </div>
+
+            </div>
+
+            <!----Card --------->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+
+                <!-- Image -->
+                <div class="h-64 overflow-hidden">
+                    <img
+                            src="https://placehold.co/600x400"
+                            alt=""
+                            class="w-full h-full object-cover transition duration-500 hover:scale-10">
+                </div>
+
+                <!-- Content -->
+                <div class="p-8">
+
+                    <h3 class=" mb-4 font-serif text-3xl  leading-tight  text-slate-800">
+                        Craniosacral Therapy
+                    </h3>
+
+                    <p class="text-slate-600  leading-8  ">
+                        Gentle, hands-on therapy that supports the nervous system
+                        and the body's natural ability to heal and restore balance.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class=" bg-white  rounded-3xl overflow-hidden  shadow-sm  hover:shadow-md  transition duration-300">
+
+                <!-- Image -->
+                <div class="h-64 overflow-hidden">
+                    <img
+                            src="https://placehold.co/600x400"
+                            alt=""
+                            class="  w-full  h-full  object-cover  transition  duration-500  hover:scale-105">
+
+                </div>
+
+                <!-- Content -->
+                <div class="p-8">
+
+                    <h3 class="mb-4 font-serif  text-3xl  leading-tight   text-slate-800">
+                        Craniosacral Therapy
+                    </h3>
+
+                    <p class=" text-slate-600  leading-8">
+                        Gentle, hands-on therapy that supports the nervous system
+                        and the body's natural ability to heal and restore balance.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class=" bg-white  rounded-3xl overflow-hidden shadow-sm hover:shadow-md  transitionduration-300">
+
+                <!-- Image -->
+                <div class="h-64 overflow-hidden">
+                    <img
+                            src="https://placehold.co/600x400"
+                            alt=""
+                            class=" w-full  h-full  object-cover  transition duration-500  hover:scale-105 "
+                    >
+                </div>
+
+                <!-- Content -->
+                <div class="p-8">
+
+                    <h3 class="  mb-4  font-serif text-3xl leading-tight text-slate-800">
+                        Craniosacral Therapy
+                    </h3>
+
+                    <p class=" text-slate-600 leading-8  ">
+                        Gentle, hands-on therapy that supports the nervous system
+                        and the body's natural ability to heal and restore balance.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
 
     </div>
-
-<!----Card --------->
-      <div class="
-    bg-white
-    rounded-3xl
-    overflow-hidden
-    shadow-sm
-    hover:shadow-md
-    transition
-    duration-300
-">
-
-      <!-- Image -->
-      <div class="h-64 overflow-hidden">
-        <img
-                src="https://placehold.co/600x400"
-                alt=""
-                class="
-                w-full
-                h-full
-                object-cover
-                transition
-                duration-500
-                hover:scale-105
-            "
-        >
-      </div>
-
-      <!-- Content -->
-      <div class="p-8">
-
-        <h3 class="
-            mb-4
-            font-serif
-            text-3xl
-            leading-tight
-            text-slate-800
-        ">
-          Craniosacral Therapy
-        </h3>
-
-        <p class="
-            text-slate-600
-            leading-8
-        ">
-          Gentle, hands-on therapy that supports the nervous system
-          and the body's natural ability to heal and restore balance.
-        </p>
-
-      </div>
-
-    </div>
-
-    <div class="
-    bg-white
-    rounded-3xl
-    overflow-hidden
-    shadow-sm
-    hover:shadow-md
-    transition
-    duration-300
-">
-
-      <!-- Image -->
-      <div class="h-64 overflow-hidden">
-        <img
-                src="https://placehold.co/600x400"
-                alt=""
-                class="
-                w-full
-                h-full
-                object-cover
-                transition
-                duration-500
-                hover:scale-105
-            "
-        >
-      </div>
-
-      <!-- Content -->
-      <div class="p-8">
-
-        <h3 class="
-            mb-4
-            font-serif
-            text-3xl
-            leading-tight
-            text-slate-800
-        ">
-          Craniosacral Therapy
-        </h3>
-
-        <p class="
-            text-slate-600
-            leading-8
-        ">
-          Gentle, hands-on therapy that supports the nervous system
-          and the body's natural ability to heal and restore balance.
-        </p>
-
-      </div>
-
-    </div>
-
-    <div class="
-    bg-white
-    rounded-3xl
-    overflow-hidden
-    shadow-sm
-    hover:shadow-md
-    transition
-    duration-300
-">
-
-      <!-- Image -->
-      <div class="h-64 overflow-hidden">
-        <img
-                src="https://placehold.co/600x400"
-                alt=""
-                class="
-                w-full
-                h-full
-                object-cover
-                transition
-                duration-500
-                hover:scale-105
-            "
-        >
-      </div>
-
-      <!-- Content -->
-      <div class="p-8">
-
-        <h3 class="
-            mb-4
-            font-serif
-            text-3xl
-            leading-tight
-            text-slate-800
-        ">
-          Craniosacral Therapy
-        </h3>
-
-        <p class="
-            text-slate-600
-            leading-8
-        ">
-          Gentle, hands-on therapy that supports the nervous system
-          and the body's natural ability to heal and restore balance.
-        </p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-
-  </div>
 </section>
 
 
 <!--  ANDREA / ABOUT THE PRACTITIONER-->
 <section id="andrea" class="bg-[#FAF8F4] px-6 py-20 md:px-12 md:py-32">
-<!--  SECTION WRAPPER  -->
-  <div class="max-w-6xl mx-auto">
+    <!--  SECTION WRAPPER  -->
+    <div class="max-w-6xl mx-auto">
 
 
-    <div class="max-w-5xl md:max-w-4xl">
+        <div class="max-w-5xl md:max-w-4xl">
 
-    <p class="mb-4
-    text-xs
-    uppercase
-    tracking-[0.22em]
-    text-[#5F7F7B]">About Andrea</p>
+            <p class="mb-4 text-xl uppercase tracking-[0.22em] text-[#5F7F7B]">About Andrea</p>
 
-    <h2 class="font-serif
-    text-4xl
-    md:text-5xl
-    lg:text-6xl
-    leading-[0.95]
-    tracking-[-0.02em]
-    text-slate-800 mb-8">
-      Meet Andrea Byers</h2>
+            <!--            <h2 class="font-serif text-4xl  md:text-5xl lg:text-6xl leading-[0.95] tracking-[-0.02em] text-slate-800 mb-8">-->
+            <!--                Meet Andrea</h2>-->
 
-<!--      PARAGRAPH CONTAINER  -->
-    <div class="space-y-8  md:max-w-2xl">
-    <p class="
-       text-lg md:text-xl
-       leading-9 md:leading-10
-       text-slate-600">Andrea's work is guided by the belief that the body carries an innate capacity for healing when met with safety, presence, and compassionate care. She brings a gentle, individualized approach to each session, creating space for healing that honors the unique experience of every person and family she serves.</p>
-<p class="
-    text-lg md:text-xl
-    leading-9 md:leading-10
-    text-slate-600">Drawing from craniosacral therapy and other integrative modalities, Andrea supports the nervous system's natural ability to restore balance and resilience. Her work is grounded in listening deeply, moving gently, and trusting the wisdom of the body.</p>
+            <!--      PARAGRAPH CONTAINER  -->
+            <div class="flex flex-col gap-16 md:flex-row md:items-center">
+
+                <div class="space-y-8  md:max-w-2xl md:w-3/5 ">
+                    <p class="  text-lg md:text-xl leading-9 md:leading-10 text-slate-600">Andrea's work is guided by
+                        the belief that the body carries an innate capacity for healing when
+                        met with safety, presence, and compassionate care. She brings a gentle, individualized approach
+                        to each session, creating space for healing that honors the unique experience of every person
+                        and family she serves.</p>
+                    <p class="  text-lg md:text-xl leading-9 md:leading-10 text-slate-600">Drawing from craniosacral
+                        therapy and other integrative modalities, Andrea supports the nervous
+                        system's natural ability to restore balance and resilience. Her work is grounded in listening
+                        deeply, moving gently, and trusting the wisdom of the body.</p>
+                </div>
+
+                <!--   image of andrea  -->
+                <div class="md:w-2/5 flex justify-center md:justify-end">
+                    <img
+                            src="https://placehold.co/400x600"
+                            alt=""
+                            class=" w-full max-w-sm h-96 md:h-[520px] object-cover object-center rounded-3xl shadow-xl ">
+                </div>
+            </div>
+
+
+            <div class="mt-16 md:mt-24">
+
+                <h3 class="  mb-6 text-sm  uppercase  tracking-[0.20em] text-[#5F7F7B]">
+                    Training & Areas of Focus
+                </h3>
+
+                <div class=" grid gap-y-4 md:grid-cols-2text-slate-700 md:gap-x-20 ">
+                    <p>— Craniosacral Therapy</p>
+                    <p>— Pediatric & Infant Care</p>
+                    <p>— Neuro-Reflex Integration</p>
+                    <p>— Trauma-Informed Practice</p>
+                    <p>— Integrative Wellness</p>
+                    <p>— Family-Centered Care</p>
+                </div>
+
+            </div>
+
+
+        </div>
     </div>
-
-    <div class="mt-16 md:mt-24">
-
-      <h3 class="
-        mb-6
-        text-sm
-        uppercase
-        tracking-[0.20em]
-        text-[#5F7F7B]
-    ">
-        Training & Areas of Focus
-      </h3>
-
-      <div class="
-        grid
-        gap-y-4
-        md:grid-cols-2
-        text-slate-700 md:gap-x-20
-    ">
-        <p>— Craniosacral Therapy</p>
-        <p>— Pediatric & Infant Care</p>
-        <p>— Neuro-Reflex Integration</p>
-        <p>— Trauma-Informed Practice</p>
-        <p>— Integrative Wellness</p>
-        <p>— Family-Centered Care</p>
-      </div>
-
-    </div>
-
-
-  </div>
-  </div>
 </section>
 
 
 <!--  learn more section-->
-  <section id="learn-more" class="bg-[#FAF8F4] px-6 py-20 md:px-12 md:py-32">
+<section id="learn-more" class="bg-[#FAF8F4] px-6 py-20 md:px-12 md:py-32">
     <div class="mx-auto max-w-6xl">
 
-      <p class="
-    mb-4
-    text-xs
-    uppercase
-    tracking-[0.22em]
-    text-[#5F7F7B]
-">
-        Helpful Resources
-      </p>
+        <p class=" mb-4 text-xs uppercase tracking-[0.22em] text-[#5F7F7B]">
+            Helpful Resources
+        </p>
 
-      <h2 class="
-    font-serif
-    text-4xl
-    md:text-5xl
-    lg:text-6xl
-    leading-[0.95]
-    tracking-[-0.02em]
-    text-[#2B2623]
-">
-        Learn More About Your Care
-      </h2>
+        <h2 class=" font-serif  text-4xl  md:text-5xllg:text-6xl leading-[0.95]tracking-[-0.02em] text-[#2B2623]">
+            Learn More About Your Care
+        </h2>
 
-      <p class="
+        <p class="
     mt-8
     max-w-2xl
     text-lg
     leading-9
     text-slate-600
 ">
-        Explore answers to common questions and helpful information about craniosacral therapy, what to expect during your visit, and how our approach supports healing and well-being.
-      </p>
-
-
-      <div class="mt-12 grid gap-6 md:grid-cols-2 md:gap-8">
-
-      <div class="rounded-3xl border border-stone-200 bg-white p-8 transition duration-300 hover:border-[#5F7F7B] hover:shadow-sm">
-
-        <p class="mb-3 text-xs uppercase tracking-[0.20em] text-[#5F7F7B]">
-          Resource
+            Explore answers to common questions and helpful information about craniosacral therapy, what to expect
+            during your visit, and how our approach supports healing and well-being.
         </p>
 
-        <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">
-          What is Craniosacral Therapy?
-        </h3>
 
-        <p class="mt-6 leading-8 text-slate-600">
-          Craniosacral therapy is a gentle, hands-on approach that works with the body's natural rhythms to support the nervous system and encourage healing. Using light touch, treatment is designed to promote balance, ease tension, and support overall well-being in a calm and restorative way.
-        </p>
+        <div class="mt-12 grid gap-6 md:grid-cols-2 md:gap-8">
 
-        <a href="#" class="mt-8 inline-flex items-center font-medium text-[#5F7F7B] transition hover:text-[#456560]">
-          Learn More
-          <span class="ml-2 text-lg">→</span>
-        </a>
+            <div class="rounded-3xl border border-stone-200 bg-white p-8 transition duration-300 hover:border-[#5F7F7B] hover:shadow-sm">
 
-      </div>
+                <p class="mb-3 text-xs uppercase tracking-[0.20em] text-[#5F7F7B]">
+                    Resource
+                </p>
 
+                <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">
+                    What is Craniosacral Therapy?
+                </h3>
 
+                <p class="mt-6 leading-8 text-slate-600">
+                    Craniosacral therapy is a gentle, hands-on approach that works with the body's natural rhythms to
+                    support the nervous system and encourage healing. Using light touch, treatment is designed to
+                    promote balance, ease tension, and support overall well-being in a calm and restorative way.
+                </p>
 
+                <a href="#"
+                   class="mt-8 inline-flex items-center font-medium text-[#5F7F7B] transition hover:text-[#456560]">
+                    Learn More
+                    <span class="ml-2 text-lg">→</span>
+                </a>
 
-      <div class="rounded-3xl border border-stone-200 bg-white p-8 transition duration-300 hover:border-[#5F7F7B] hover:shadow-sm">
-
-        <p class="mb-3 text-xs uppercase tracking-[0.20em] text-[#5F7F7B]">
-          Resource
-        </p>
-
-        <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">
-          What Can I Expect During a Session?
-        </h3>
-
-        <p class="mt-6 leading-8 text-slate-600">
-          Each session is tailored to your individual needs and begins with a conversation about your health history, goals, and any concerns you may have. Treatment is gentle, fully clothed, and designed to help you feel comfortable, supported, and at ease throughout the experience.
-        </p>
-
-        <a href="#" class="mt-8 inline-flex items-center font-medium text-[#5F7F7B] transition hover:text-[#456560]">
-          Read Answer
-          <span class="ml-2 text-lg">→</span>
-        </a>
-
-      </div>
+            </div>
 
 
+            <div class="rounded-3xl border border-stone-200 bg-white p-8 transition duration-300 hover:border-[#5F7F7B] hover:shadow-sm">
 
-      <div class="rounded-3xl border border-stone-200 bg-white p-8 transition duration-300 hover:border-[#5F7F7B] hover:shadow-sm">
+                <p class="mb-3 text-xs uppercase tracking-[0.20em] text-[#5F7F7B]">
+                    Resource
+                </p>
 
-        <p class="mb-3 text-xs uppercase tracking-[0.20em] text-[#5F7F7B]">
-          Your Visit
-        </p>
+                <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">
+                    What Can I Expect During a Session?
+                </h3>
 
-        <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">
-          What Can I Expect During a Session?
-        </h3>
+                <p class="mt-6 leading-8 text-slate-600">
+                    Each session is tailored to your individual needs and begins with a conversation about your health
+                    history, goals, and any concerns you may have. Treatment is gentle, fully clothed, and designed to
+                    help you feel comfortable, supported, and at ease throughout the experience.
+                </p>
 
-        <p class="mt-6 leading-8 text-slate-600">
-          Every session begins with a conversation about your health history, goals, and any questions you may have. Treatment is gentle, fully clothed, and tailored to your individual needs. Throughout your visit, our focus is on creating a calm, supportive environment where you can relax and allow your body to respond naturally.
-        </p>
+                <a href="#"
+                   class="mt-8 inline-flex items-center font-medium text-[#5F7F7B] transition hover:text-[#456560]">
+                    Read Answer
+                    <span class="ml-2 text-lg">→</span>
+                </a>
 
-        <a href="#" class="mt-8 inline-flex items-center font-medium text-[#5F7F7B] transition hover:text-[#456560]">
-          Read Answer
-          <span class="ml-2 text-lg">→</span>
-        </a>
-
-      </div>
+            </div>
 
 
-      <div class="rounded-3xl border border-stone-200 bg-white p-8 transition duration-300 hover:border-[#5F7F7B] hover:shadow-sm">
+            <div class="rounded-3xl border border-stone-200 bg-white p-8 transition duration-300 hover:border-[#5F7F7B] hover:shadow-sm">
 
-        <p class="mb-3 text-xs uppercase tracking-[0.20em] text-[#5F7F7B]">
-          Frequently Asked
-        </p>
+                <p class="mb-3 text-xs uppercase tracking-[0.20em] text-[#5F7F7B]">
+                    Your Visit
+                </p>
 
-        <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">
-          Frequently Asked Questions
-        </h3>
+                <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">
+                    What Can I Expect During a Session?
+                </h3>
 
-        <p class="mt-6 leading-8 text-slate-600">
-          Have questions before scheduling your first appointment? Explore answers to common topics including treatment, appointment preparation, session length, and what to expect during your visit. We're here to help you feel informed and comfortable every step of the way.
-        </p>
+                <p class="mt-6 leading-8 text-slate-600">
+                    Every session begins with a conversation about your health history, goals, and any questions you may
+                    have. Treatment is gentle, fully clothed, and tailored to your individual needs. Throughout your
+                    visit, our focus is on creating a calm, supportive environment where you can relax and allow your
+                    body to respond naturally.
+                </p>
 
-        <a href="#" class="mt-8 inline-flex items-center font-medium text-[#5F7F7B] transition hover:text-[#456560]">
-          Read Answer
-          <span class="ml-2 text-lg">→</span>
-        </a>
+                <a href="#"
+                   class="mt-8 inline-flex items-center font-medium text-[#5F7F7B] transition hover:text-[#456560]">
+                    Read Answer
+                    <span class="ml-2 text-lg">→</span>
+                </a>
 
-      </div>
-</div>
+            </div>
+
+
+            <div class="rounded-3xl border border-stone-200 bg-white p-8 transition duration-300 hover:border-[#5F7F7B] hover:shadow-sm">
+
+                <p class="mb-3 text-xs uppercase tracking-[0.20em] text-[#5F7F7B]">
+                    Frequently Asked
+                </p>
+
+                <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">
+                    Frequently Asked Questions
+                </h3>
+
+                <p class="mt-6 leading-8 text-slate-600">
+                    Have questions before scheduling your first appointment? Explore answers to common topics including
+                    treatment, appointment preparation, session length, and what to expect during your visit. We're here
+                    to help you feel informed and comfortable every step of the way.
+                </p>
+
+                <a href="#"
+                   class="mt-8 inline-flex items-center font-medium text-[#5F7F7B] transition hover:text-[#456560]">
+                    Read Answer
+                    <span class="ml-2 text-lg">→</span>
+                </a>
+
+            </div>
+        </div>
 
     </div>
 
 
-  </section>
+</section>
 <!--  Connect Section  -->
 <section id="connect" class="bg-[#F4EFE8] px-6 py-20 md:px-12 md:py-32">
-  <div class="mx-auto max-w-6xl">
+    <div class="mx-auto max-w-6xl">
 
-    <div class="grid gap-12 md:grid-cols-2 md:items-start">
+        <div class="grid gap-12 md:grid-cols-2 md:items-start">
 
-      <!-- LEFT -->
-      <div>
-        <p class="mb-4 text-xs uppercase tracking-[0.22em] text-[#5F7F7B]">
-          Connect
-        </p>
+            <!-- LEFT -->
+            <div>
+                <p class="mb-4 text-xs uppercase tracking-[0.22em] text-[#5F7F7B]">
+                    Connect
+                </p>
 
-        <h2 class="font-serif text-4xl leading-[0.95] tracking-[-0.02em] text-slate-800 md:text-6xl">
-          Begin your healing journey.
-        </h2>
+                <h2 class="font-serif text-4xl leading-[0.95] tracking-[-0.02em] text-slate-800 md:text-6xl">
+                    Begin your healing journey.
+                </h2>
 
-        <p class="mt-8 max-w-xl text-lg leading-9 text-slate-600">
-          Whether you are ready to schedule a session or simply have questions, Andrea welcomes you to reach out. We’ll help you find the next step that feels right for you.
-        </p>
+                <p class="mt-8 max-w-xl text-lg leading-9 text-slate-600">
+                    Whether you are ready to schedule a session or simply have questions, Andrea welcomes you to reach
+                    out. We’ll help you find the next step that feels right for you.
+                </p>
 
-        <div class="mt-10 flex flex-col gap-4 sm:flex-row">
-          <a href="#" class="rounded-full bg-[#5F7F7B] px-8 py-4 text-center text-sm font-medium text-white transition hover:bg-[#4f6d69]">
-            Book a Session
-          </a>
+                <div class="mt-10 flex flex-col gap-4 sm:flex-row">
+                    <a href="#"
+                       class="rounded-full bg-[#5F7F7B] px-8 py-4 text-center text-sm font-medium text-white transition hover:bg-[#4f6d69]">
+                        Book a Session
+                    </a>
 
-          <a href="mailto:hello@example.com" class="rounded-full border border-[#5F7F7B] px-8 py-4 text-center text-sm font-medium text-[#355C67] transition hover:bg-white/60">
-            Send a Message
-          </a>
+                    <a href="mailto:hello@example.com"
+                       class="rounded-full border border-[#5F7F7B] px-8 py-4 text-center text-sm font-medium text-[#355C67] transition hover:bg-white/60">
+                        Send a Message
+                    </a>
+                </div>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="rounded-3xl bg-white/70 p-8 shadow-sm backdrop-blur md:p-10">
+                <h3 class="font-serif text-3xl text-slate-800">
+                    Contact Information
+                </h3>
+
+                <div class="mt-8 space-y-6 text-slate-600">
+                    <div>
+                        <p class="text-xs uppercase tracking-[0.18em] text-[#5F7F7B]">Email</p>
+                        <p class="mt-2">hello@example.com</p>
+                    </div>
+
+                    <div>
+                        <p class="text-xs uppercase tracking-[0.18em] text-[#5F7F7B]">Phone</p>
+                        <p class="mt-2">(000) 000-0000</p>
+                    </div>
+
+                    <div>
+                        <p class="text-xs uppercase tracking-[0.18em] text-[#5F7F7B]">Location</p>
+                        <p class="mt-2">Location details coming soon</p>
+                    </div>
+
+                    <div>
+                        <p class="text-xs uppercase tracking-[0.18em] text-[#5F7F7B]">Hours</p>
+                        <p class="mt-2">By appointment</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
-      </div>
-
-      <!-- RIGHT -->
-      <div class="rounded-3xl bg-white/70 p-8 shadow-sm backdrop-blur md:p-10">
-        <h3 class="font-serif text-3xl text-slate-800">
-          Contact Information
-        </h3>
-
-        <div class="mt-8 space-y-6 text-slate-600">
-          <div>
-            <p class="text-xs uppercase tracking-[0.18em] text-[#5F7F7B]">Email</p>
-            <p class="mt-2">hello@example.com</p>
-          </div>
-
-          <div>
-            <p class="text-xs uppercase tracking-[0.18em] text-[#5F7F7B]">Phone</p>
-            <p class="mt-2">(000) 000-0000</p>
-          </div>
-
-          <div>
-            <p class="text-xs uppercase tracking-[0.18em] text-[#5F7F7B]">Location</p>
-            <p class="mt-2">Location details coming soon</p>
-          </div>
-
-          <div>
-            <p class="text-xs uppercase tracking-[0.18em] text-[#5F7F7B]">Hours</p>
-            <p class="mt-2">By appointment</p>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </div>
-
-
 
 
 </section>
 
 
-
-
-
-
-
-
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<script type="module" src="/src/main.js"></script>
+</body>
 </html>
