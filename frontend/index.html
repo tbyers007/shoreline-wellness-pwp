@@ -3,68 +3,55 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Vite App</title>
+    <title>Shoreline Wellness</title>
     <link href="/src/index.css" rel="stylesheet">
 
 </head>
 <body>
 
-<section class="relative min-h-screen bg-[url('/img/header-image.png')] bg-cover bg-no-repeat bg-[position:80%_center] md:bg-[position:90%_center] lg:bg-[position:100%_center]">
+<section class="relative min-h-[90vh]  bg-[url('/img/header-image.png')] bg-cover bg-no-repeat bg-[position:80%_center] md:bg-[position:90%_center] lg:bg-[position:100%_center]">
     <nav class=" w-full z-20 fixed top-0  bg-[#FAF8F4]/30 backdrop-blur-md ">
 
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4  ">
+        <div class="mx-auto grid max-w-screen-xl grid-cols-[auto_auto] items-center justify-between gap-4 px-8 py-4 md:grid-cols-[auto_1fr] ">
 
-            <div class="flex flex-col">
+            <div class="flex flex-col ">
 
-                <span class="text-stone-700 text-lg font-medium">SHORELINE</span>
-                <span class=" text-stone-700 text-lg font-medium">WELLNESS</span>
+                <span class="text-stone-700 text-xl md:text-lg font-medium">SHORELINE</span>
+                <span class=" text-stone-700 text-xl md:text-lg font-medium">WELLNESS</span>
 
             </div>
 
 
-            <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                <a href="#connect"
-                        class=" bg-brand hover:bg-brand-strong box-border  focus:ring-4 focus:ring-brand-medium shadow-xs font-medium  rounded-base text-sm px-3 py-2 focus:outline-none   border border-[#5F7F7B] text-[#5F7F7B]   text-center rounded-full leading-8 hover:bg-[#5F7F7B] hover:text-white ">
-                    Book a Session
-                </a>
-                <button data-collapse-toggle="navbar-cta" type="button"
-                        class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
-                        aria-controls="navbar-cta" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                         fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
-                              d="M5 7h14M5 12h14M5 17h14"/>
-                    </svg>
-                </button>
-            </div>
-            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-10 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
+
+
+
+            <div class="hidden justify-self-center md:flex md:items-center" id="navbar-cta">
+                <ul class="flex flex-col gap-4 p-4 md:flex-row md:items-center md:gap-2 lg:gap-8 xl:gap-10 ">
                     <li>
                         <a href="#home"
-                           class="block hover:text-[#5F7F7B] tracking-[0.02em] text-stone-700 text-sm font-medium py-2 px-3  bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
+                           class="block rounded px-3 py-2 text-sm font-medium tracking-[0.02em] text-stone-700 transition-colors hover:text-[#5F7F7B] md:p-0 lg:text-[15px]"
                            aria-current="page">Home</a>
                     </li>
                     <li>
                         <a href="#approach"
-                           class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Approach</a>
+                           class="block rounded px-3 py-2 text-sm font-medium tracking-[0.02em] text-stone-700 transition-colors hover:text-[#5F7F7B] md:p-0 lg:text-[15px]">Approach</a>
                     </li>
                     <li>
                         <a href="#services"
-                           class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Services</a>
+                           class="block rounded px-3 py-2 text-sm font-medium tracking-[0.02em] text-stone-700 transition-colors hover:text-[#5F7F7B] md:p-0 lg:text-[15px]">Services</a>
                     </li>
                     <li>
                         <a href="#andrea"
-                           class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Andrea</a>
+                           class="block rounded px-3 py-2 text-sm font-medium tracking-[0.02em] text-stone-700 transition-colors hover:text-[#5F7F7B] md:p-0 lg:text-[15px]">Andrea</a>
                     </li>
                     <li>
                         <a href="#learn-more"
-                           class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Learn
+                           class="block rounded px-3 py-2 text-sm font-medium tracking-[0.02em] text-stone-700 transition-colors hover:text-[#5F7F7B] md:p-0 lg:text-[15px]">Learn
                             More</a>
                     </li>
                     <li>
                         <a href="#connect"
-                           class="block hover:text-[#5F7F7B] text-stone-700 tracking-[0.02em] font-medium text-sm py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Connect</a>
+                           class="block rounded px-3 py-2 text-sm font-medium tracking-[0.02em] text-stone-700 transition-colors hover:text-[#5F7F7B] md:p-0 lg:text-[15px]">Connect</a>
                     </li>
                 </ul>
             </div>
@@ -73,17 +60,17 @@
 
 
     <!--    HERO SECTION   -->
-    <section id="home" class="    min-h-screen px-15 md:px-25">
+    <section id="home" class="min-h-screen px-8 md:px-12 lg:px-16">
 
-        <div class="max-w-lg  pb-4 md:max-w-3xl md:pt-32 pt-60">
-            <h1 class="max-w-3xl text-5xl md:text-7xl font-serif leading-[1.1] tracking-[-0.03em] mb-6 text-[#2B2623]">
+        <div class="max-w-lg md:max-w-3xl pt-60  lg:pl-20 md:pl-15   ">
+            <h1 class=" text-5xl       md:text-6xl lg:text-8xl  xl:text-10xl  font-serif leading-[1] tracking-[-0.03em] mb-6 text-[#2B2623]  ">
                 Healing begins when the body feels safe</h1>
-            <h4 class="text-md text-gray-800 font-sans pt-10 tracking-[0.18em] uppercase ">GENTLE CRANIOSACRAL THERAPY
+            <h4 class=" pt-6 text-sm text-gray-800 font-sans uppercase leading-7 tracking-[0.14em] md:pt-8 md:text-base md:leading-8 md:tracking-[0.16em]  ">GENTLE CRANIOSACRAL THERAPY
                 AND INTEGRATIVE HEALING FOR EVERY STAGE OF LIFE</h4>
         </div>
 
-        <div class="mt-8">
-            <a href="#connect"  class="bg-[#5F7F7B] text-sm text-white px-8 py-4 text-center rounded-full leading-8">Book a
+        <div class="mt-20  lg:pl-20 md:pl-15">
+            <a href="#connect"  class="bg-[#5F7F7B] text-lg text-white px-12 py-8 text-center rounded-full leading-9     shadow-lg  hover:shadow-xl">Book a
                 Session
             </a>
         </div>
@@ -95,7 +82,7 @@
 
 <!--  APPROACH / ABOUT THE PRACTICE  -->
 <section id="approach" class="  bg-[#FAF8F4]  ">
-    <div class=" md:flex md:flex-row  min-h-screen  flex flex-col gap-10  md:justify-between  px-25 md:px-35 pt-30 py-20">
+    <div class=" grid grid-cols-1 lg:grid-cols-2 gap-20 items-center px-25 py-20">
 
         <div class="md:w-3/5 max-w-2xl">
             <p class="mb-4 text-xs uppercase tracking-[0.22em] text-[#5F7F7B]">Our Approach</p>
@@ -106,8 +93,8 @@
                 child, or your family, our approach honors each person's unique experience and healing journey.</p>
         </div>
 
-        <div class="overflow-hidden rounded-3xl md:w-2/5">
-            <img src="/img/ceramic.jpg" class=" h-[360px] w-full object-cover  md:h-[500px]  rounded-3xl">
+        <div class="overflow-hidden rounded-3xl md:w-[45%] lg:w-[65%]">
+            <img src="/img/ceramic.jpg" class=" h-[360px] w-full rounded-3xl object-cover md:h-[500px] lg:h-[600px]">
         </div>
 
     </div>
@@ -190,7 +177,7 @@
                     <img
                             src="/img/moamen-ali-DYjbh9raF_g-unsplash.jpg"
                             alt=""
-                            class="  w-full  h-full  object-cover  transition  duration-500  hover:scale-105">
+                            class="  w-full  h-full  object-cover  transition  duration-500  hover:scale-[1.02]">
 
                 </div>
 
@@ -243,7 +230,7 @@
 
 
 <!--  ANDREA / ABOUT THE PRACTITIONER-->
-<section id="andrea" class="bg-[#FAF8F4] px-6 py-20 md:px-12 md:py-32">
+<section id="andrea" class="bg-[#FAF8F4] px-6 py-20 md:px-12 md:pt-24 md:pb-32">
     <!--  SECTION WRAPPER  -->
     <div class="max-w-6xl mx-auto">
 
@@ -252,11 +239,10 @@
 
             <p class="mb-4 text-xl uppercase tracking-[0.22em] text-[#5F7F7B]">About Andrea</p>
 
-            <!--            <h2 class="font-serif text-4xl  md:text-5xl lg:text-6xl leading-[0.95] tracking-[-0.02em] text-slate-800 mb-8">-->
-            <!--                Meet Andrea</h2>-->
+
 
             <!--      PARAGRAPH CONTAINER  -->
-            <div class="flex flex-col gap-16 md:flex-row md:items-center">
+            <div class="flex flex-col gap-16 md:flex-row md:items-center md:gap-12 lg:gap-10">
 
                 <div class="space-y-8  md:max-w-2xl md:w-3/5 ">
                     <p class="  text-lg md:text-xl leading-9 md:leading-10 text-slate-600">Andrea's work is guided by
@@ -345,11 +331,7 @@
                     promote balance, ease tension, and support overall well-being in a calm and restorative way.
                 </p>
 
-                <a href="#"
-                   class="mt-8 inline-flex items-center font-medium text-[#5F7F7B] transition hover:text-[#456560]">
-                    Learn More
-                    <span class="ml-2 text-lg">→</span>
-                </a>
+
 
             </div>
 
@@ -370,11 +352,7 @@
                     help you feel comfortable, supported, and at ease throughout the experience.
                 </p>
 
-                <a href="#"
-                   class="mt-8 inline-flex items-center font-medium text-[#5F7F7B] transition hover:text-[#456560]">
-                    Read Answer
-                    <span class="ml-2 text-lg">→</span>
-                </a>
+
 
             </div>
 
@@ -394,11 +372,7 @@
 
                 </p>
 
-                <a href="#"
-                   class="mt-8 inline-flex items-center font-medium text-[#5F7F7B] transition hover:text-[#456560]">
-                    Read Answer
-                    <span class="ml-2 text-lg">→</span>
-                </a>
+
 
             </div>
 
@@ -418,11 +392,7 @@
 
                 </p>
 
-                <a href="#"
-                   class="mt-8 inline-flex items-center font-medium text-[#5F7F7B] transition hover:text-[#456560]">
-                    Read Answer
-                    <span class="ml-2 text-lg">→</span>
-                </a>
+
 
             </div>
         </div>
@@ -453,7 +423,7 @@
                 </p>
 
                 <div class="mt-10 flex flex-col gap-4 sm:flex-row">
-                    <a href="#"
+                    <a href="mailto:hello@example.com"
                        class="rounded-full bg-[#5F7F7B] px-8 py-4 text-center text-sm font-medium text-white transition hover:bg-[#4f6d69]">
                         Book a Session
                     </a>
@@ -474,12 +444,12 @@
                 <div class="mt-8 space-y-6 text-slate-600">
                     <div>
                         <p class="text-xs uppercase tracking-[0.18em] text-[#5F7F7B]">Email</p>
-                        <p class="mt-2">hello@example.com</p>
+                        <a href="mailto:hello@example.com" class="mt-2  hover:text-[#5F7F7B] ">shorelinewellness@gmail.com</a>
                     </div>
 
                     <div>
                         <p class="text-xs uppercase tracking-[0.18em] text-[#5F7F7B]">Phone</p>
-                        <p class="mt-2">(000) 000-0000</p>
+                        <p class="mt-2">(818) 599-4260</p>
                     </div>
 
                     <div>
