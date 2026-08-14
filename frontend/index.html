@@ -10,17 +10,16 @@
 <body>
 
 <section class="relative min-h-[100vh]  bg-[url('/img/header-image.png')] bg-cover bg-no-repeat bg-[position:80%_center] md:bg-[position:90%_center] lg:bg-[position:100%_center]">
+
     <nav class=" w-full z-20 fixed top-0  bg-[#FAF8F4]/30 backdrop-blur-md ">
 
         <div class="mx-auto grid max-w-screen-xl grid-cols-[auto_auto] items-center justify-between gap-4 px-8 py-3 md:grid-cols-[auto_1fr] ">
 
             <div class="flex flex-col leading-tight">
-
                 <span class="text-stone-700 text-xl md:text-lg font-medium">SHORELINE</span>
                 <span class=" text-stone-700 text-xl md:text-lg font-medium">WELLNESS</span>
-
             </div>
-
+            <!--            HAMBURGER        -->
             <button data-collapse-toggle="navbar-cta" type="button"
                     class="inline-flex items-center justify-self-end rounded p-2 text-stone-700 md:hidden"
                     aria-controls="navbar-cta" aria-expanded="false">
@@ -29,7 +28,6 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
                 </svg>
             </button>
-
 
             <div class="hidden w-full max-md:col-span-2 justify-self-center md:flex md:w-auto md:items-center" id="navbar-cta">
                 <ul class="flex flex-col gap-4 p-4 md:flex-row md:items-center md:gap-2 lg:gap-8 xl:gap-10 ">
@@ -68,17 +66,15 @@
     <!--    HERO SECTION   -->
     <section id="home" class="min-h-screen px-8 md:px-12 lg:px-16">
 
-        <div class="max-w-lg md:max-w-3xl pt-60  lg:pl-20 md:pl-15   ">
-            <h1 class=" text-5xl       md:text-6xl lg:text-8xl  xl:text-10xl  font-serif leading-[1] tracking-[-0.03em] mb-6 text-[#2B2623]  ">
+        <div class="max-w-lg md:max-w-3xl pt-60 lg:pl-20 md:pl-15">
+            <h1 class="text-5xl md:text-6xl lg:text-8xl xl:text-10xl font-serif leading-[1] tracking-[-0.03em] mb-6 text-[#2B2623] ">
                 Healing begins when the body feels safe</h1>
-            <h4 class=" pt-6 text-sm text-gray-800 font-sans uppercase leading-7 tracking-[0.14em] md:pt-8 md:text-base md:leading-8 md:tracking-[0.16em]  ">GENTLE CRANIOSACRAL THERAPY
+            <h4 class="pt-6 text-sm text-gray-800 font-sans uppercase leading-7 tracking-[0.14em] md:pt-8 md:text-base md:leading-8 md:tracking-[0.16em] ">GENTLE CRANIOSACRAL THERAPY
                 AND INTEGRATIVE HEALING FOR EVERY STAGE OF LIFE</h4>
         </div>
 
         <div class="mt-20  lg:pl-20 md:pl-15">
-            <a href="#connect"  class="bg-[#5F7F7B] text-lg text-white px-12 py-8 text-center rounded-full leading-9     shadow-lg  hover:shadow-xl">Book a
-                Session
-            </a>
+            <a href="#connect"  class="bg-[#5F7F7B] text-lg text-white px-12 py-8 text-center rounded-full leading-9  shadow-lg  hover:shadow-xl">Book a Session</a>
         </div>
 
     </section>
@@ -109,7 +105,6 @@
 
 <!--  SERVICES SECTION   -->
 <section id="services">
-    <!--  SERVICES WRAPPER-->
     <div class=" bg-[#FAF8F4] px-6 py-20">
 
         <div class="mb-10">
@@ -120,110 +115,69 @@
 
         <!--    CARD CONTAINER   -->
         <div class="grid gap-8 md:grid-cols-2 ">
-
-            <!--      CARD     -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition duration-300
-">
-
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition duration-300">
                 <!-- Image -->
                 <div class="h-64 overflow-hidden">
-                    <img
-                            src="/img/toa-heftiba-a9pFSC8dTlo-unsplash.jpg"
-                            alt=""
-                            class="w-full h-full object-cover transition duration-500 hover:scale-105"
-                    >
+                    <img src="/img/toa-heftiba-a9pFSC8dTlo-unsplash.jpg"
+                         alt="massage hands"
+                         class="w-full h-full object-cover transition duration-500 hover:scale-105">
                 </div>
 
-                <!-- Content -->
                 <div class="p-8">
-
-                    <h3 class="mb-4 font-serif text-3xl leading-tight text-slate-800">
-                        Craniosacral Therapy
-                    </h3>
-
+                    <h3 class="mb-4 font-serif text-3xl leading-tight text-slate-800">Craniosacral Therapy</h3>
                     <p class="text-slate-600 leading-8">
                         Gentle, hands-on therapy that supports the nervous system
-                        and the body's natural ability to heal and restore balance.
-                    </p>
-
+                        and the body's natural ability to heal and restore balance.</p>
                 </div>
-
             </div>
 
-            <!----Card --------->
             <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition duration-300">
 
-                <!-- Image -->
                 <div class="h-64 overflow-hidden">
-                    <img
-                            src="/img/helena-lopes-brWLjIlH4Nk-unsplash.jpg"
-                            alt=""
-                            class="w-full h-full object-cover transition duration-500 hover:scale-105">
+                    <img src="/img/helena-lopes-brWLjIlH4Nk-unsplash.jpg"
+                         alt="hands holding a baby"
+                         class="w-full h-full object-cover transition duration-500 hover:scale-105">
                 </div>
 
-                <!-- Content -->
                 <div class="p-8">
-
-                    <h3 class=" mb-4 font-serif text-3xl  leading-tight  text-slate-800">
-                        Infant & Pediatric Craniosacral Therapy
-                    </h3>
-
-                    <p class="text-slate-600  leading-8  ">
-                        Compassionate care for infants and children, supporting healthy development, regulation, and overall well-being through gentle treatment.
-                    </p>
-
+                    <h3 class=" mb-4 font-serif text-3xl  leading-tight  text-slate-800">Infant & Pediatric Craniosacral Therapy</h3>
+                    <p class="text-slate-600  leading-8 ">Compassionate care for infants and children, supporting healthy development, regulation, and overall well-being through gentle treatment.</p>
                 </div>
 
             </div>
 
             <div class=" bg-white  rounded-3xl overflow-hidden  shadow-sm  hover:shadow-md transition duration-300">
 
-                <!-- Image -->
                 <div class="h-64 overflow-hidden">
-                    <img
-                            src="/img/moamen-ali-DYjbh9raF_g-unsplash.jpg"
-                            alt=""
-                            class="  w-full  h-full  object-cover  transition  duration-500  hover:scale-[1.02]">
+                    <img src="/img/moamen-ali-DYjbh9raF_g-unsplash.jpg"
+                         alt="woman stretching"
+                         class=" w-full h-full object-cover transition duration-500 hover:scale-[1.02]">
 
                 </div>
 
-                <!-- Content -->
                 <div class="p-8">
-
-                    <h3 class="mb-4 font-serif  text-3xl  leading-tight   text-slate-800">
-                        Neuro-Reflex Integration
-                    </h3>
-
+                    <h3 class="mb-4 font-serif  text-3xl  leading-tight   text-slate-800">Neuro-Reflex Integration</h3>
                     <p class=" text-slate-600  leading-8">
                         An approach that works with retained primitive reflexes to support movement, coordination, learning, and nervous system regulation.
                     </p>
-
                 </div>
 
             </div>
 
             <div class=" bg-white  rounded-3xl overflow-hidden shadow-sm hover:shadow-md  transition duration-300">
 
-                <!-- Image -->
                 <div class="h-64 overflow-hidden">
-                    <img
-                            src="/img/emma-simpson-mNGaaLeWEp0-unsplash.jpg"
-                            alt=""
-                            class=" w-full  h-full  object-cover  transition duration-500  hover:scale-105 "
-                    >
+                    <img src="/img/emma-simpson-mNGaaLeWEp0-unsplash.jpg"
+                         alt="woman walking in the sun"
+                         class=" w-full  h-full  object-cover  transition duration-500  hover:scale-105 ">
                 </div>
 
-                <!-- Content -->
                 <div class="p-8">
-
-                    <h3 class="  mb-4  font-serif text-3xl leading-tight text-slate-800">
-                        Integrative Wellness Care
-                    </h3>
+                    <h3 class="  mb-4  font-serif text-3xl leading-tight text-slate-800">Integrative Wellness Care</h3>
 
                     <p class=" text-slate-600 leading-8  ">
                         Individualized care that considers the unique needs of each person and family, drawing from multiple gentle, evidence-informed approaches to support healing and resilience.
                     </p>
-
                 </div>
 
             </div>
@@ -237,17 +191,12 @@
 
 <!--  ANDREA / ABOUT THE PRACTITIONER-->
 <section id="andrea" class="bg-[#FAF8F4] px-6 py-20 md:px-12 md:pt-24 md:pb-32">
-    <!--  SECTION WRAPPER  -->
     <div class="max-w-6xl mx-auto">
-
 
         <div class="max-w-5xl md:max-w-4xl">
 
             <p class="mb-4 text-xl uppercase tracking-[0.22em] text-[#5F7F7B]">About Andrea</p>
 
-
-
-            <!--      PARAGRAPH CONTAINER  -->
             <div class="flex flex-col gap-16 md:flex-row md:items-center md:gap-12 lg:gap-10">
 
                 <div class="space-y-8  md:max-w-2xl md:w-3/5 ">
@@ -262,21 +211,16 @@
                         deeply, moving gently, and trusting the wisdom of the body.</p>
                 </div>
 
-                <!--   image of andrea  -->
                 <div class="md:w-2/5 flex justify-center md:justify-end">
-                    <img
-                            src="/img/andrea-cropped.jpg"
-                            alt=""
-                            class=" w-full max-w-sm h-96 md:h-[520px] object-cover  object-[50%_15%] rounded-3xl shadow-xl ">
+                    <img src="/img/andrea-cropped.jpg"
+                         alt="image of Andrea"
+                         class=" w-full max-w-sm h-96 md:h-[520px] object-cover  object-[50%_15%] rounded-3xl shadow-xl ">
                 </div>
             </div>
 
-
             <div class="mt-16 md:mt-24">
 
-                <h3 class="  mb-6 text-sm  uppercase  tracking-[0.20em] text-[#5F7F7B]">
-                    Training & Areas of Focus
-                </h3>
+                <h3 class="  mb-6 text-sm  uppercase  tracking-[0.20em] text-[#5F7F7B]">Training & Areas of Focus</h3>
 
                 <div class=" grid gap-y-4 md:grid-cols-2 text-slate-700 md:gap-x-20 ">
                     <p>— Craniosacral Therapy</p>
@@ -289,7 +233,6 @@
 
             </div>
 
-
         </div>
     </div>
 </section>
@@ -299,21 +242,11 @@
 <section id="learn-more" class="bg-[#FAF8F4] px-6 py-20 md:px-12 md:py-32">
     <div class="mx-auto max-w-6xl">
 
-        <p class=" mb-4 text-xs uppercase tracking-[0.22em] text-[#5F7F7B]">
-            Helpful Resources
-        </p>
+        <p class=" mb-4 text-xs uppercase tracking-[0.22em] text-[#5F7F7B]">Helpful Resources</p>
 
-        <h2 class=" font-serif  text-4xl  md:text-5xl lg:text-6xl leading-[0.95] tracking-[-0.02em] text-[#2B2623]">
-            Learn More About Your Care
-        </h2>
+        <h2 class=" font-serif  text-4xl  md:text-5xl lg:text-6xl leading-[0.95] tracking-[-0.02em] text-[#2B2623]">Learn More About Your Care</h2>
 
-        <p class="
-    mt-8
-    max-w-2xl
-    text-lg
-    leading-9
-    text-slate-600
-">
+        <p class="mt-8 max-w-2xl text-lg leading-9 text-slate-600">
             Explore answers to common questions and helpful information about craniosacral therapy, what to expect
             during your visit, and how our approach supports healing and well-being.
         </p>
@@ -323,21 +256,15 @@
 
             <div class="rounded-3xl border border-stone-200 bg-white p-8 transition duration-300 hover:border-[#5F7F7B] hover:shadow-sm">
 
-                <p class="mb-3 text-xs uppercase tracking-[0.20em] text-[#5F7F7B]">
-                    Resource
-                </p>
+                <p class="mb-3 text-xs uppercase tracking-[0.20em] text-[#5F7F7B]">Resource</p>
 
-                <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">
-                    What is Craniosacral Therapy?
-                </h3>
+                <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">What is Craniosacral Therapy?</h3>
 
                 <p class="mt-6 leading-8 text-slate-600">
                     Craniosacral therapy is a gentle, hands-on approach that works with the body's natural rhythms to
                     support the nervous system and encourage healing. Using light touch, treatment is designed to
                     promote balance, ease tension, and support overall well-being in a calm and restorative way.
                 </p>
-
-
 
             </div>
 
@@ -348,9 +275,7 @@
                     Your Visit
                 </p>
 
-                <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">
-                    What Can I Expect During a Session?
-                </h3>
+                <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">What Can I Expect During a Session?</h3>
 
                 <p class="mt-6 leading-8 text-slate-600">
                     Each session is tailored to your individual needs and begins with a conversation about your health
@@ -358,47 +283,32 @@
                     help you feel comfortable, supported, and at ease throughout the experience.
                 </p>
 
-
-
             </div>
-
 
             <div class="rounded-3xl border border-stone-200 bg-white p-8 transition duration-300 hover:border-[#5F7F7B] hover:shadow-sm">
 
-                <p class="mb-3 text-xs uppercase tracking-[0.20em] text-[#5F7F7B]">
-                    WHO WE HELP
-                </p>
+                <p class="mb-3 text-xs uppercase tracking-[0.20em] text-[#5F7F7B]">WHO WE HELP</p>
 
-                <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">
-                    Who Can Benefit from Craniosacral Therapy?
-                </h3>
+                <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">Who Can Benefit from Craniosacral Therapy?</h3>
 
                 <p class="mt-6 leading-8 text-slate-600">
                     Craniosacral therapy may benefit infants, children, and adults seeking support for stress, tension, recovery, or overall well-being. Every session is thoughtfully tailored to meet each person's unique needs and goals.
-
                 </p>
 
 
 
             </div>
 
-
             <div class="rounded-3xl border border-stone-200 bg-white p-8 transition duration-300 hover:border-[#5F7F7B] hover:shadow-sm">
 
                 <p class="mb-3 text-xs uppercase tracking-[0.20em] text-[#5F7F7B]">
-                    OUR PHILOSOPHY
-                </p>
+                    OUR PHILOSOPHY</p>
 
-                <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">
-                    A Gentle, Whole-Person Approach
-                </h3>
+                <h3 class="font-serif text-3xl leading-tight text-[#2B2623]">A Gentle, Whole-Person Approach</h3>
 
                 <p class="mt-6 leading-8 text-slate-600">
                     Healing looks different for everyone. Our approach focuses on creating a calm, supportive environment where the nervous system can settle and the body's natural capacity for balance and healing can emerge.
-
                 </p>
-
-
 
             </div>
         </div>
@@ -413,15 +323,10 @@
 
         <div class="grid gap-12 md:grid-cols-2 md:items-start">
 
-            <!-- LEFT -->
             <div>
-                <p class="mb-4 text-xs uppercase tracking-[0.22em] text-[#5F7F7B]">
-                    Connect
-                </p>
+                <p class="mb-4 text-xs uppercase tracking-[0.22em] text-[#5F7F7B]">Connect</p>
 
-                <h2 class="font-serif text-4xl leading-[0.95] tracking-[-0.02em] text-slate-800 md:text-6xl">
-                    Begin your healing journey.
-                </h2>
+                <h2 class="font-serif text-4xl leading-[0.95] tracking-[-0.02em] text-slate-800 md:text-6xl">Begin your healing journey.</h2>
 
                 <p class="mt-8 max-w-xl text-lg leading-9 text-slate-600">
                     Whether you are ready to schedule a session or simply have questions, Andrea welcomes you to reach
@@ -441,11 +346,8 @@
                 </div>
             </div>
 
-            <!-- RIGHT -->
             <div class="rounded-3xl bg-white/70 p-8 shadow-sm backdrop-blur md:p-10">
-                <h3 class="font-serif text-3xl text-slate-800">
-                    Contact Information
-                </h3>
+                <h3 class="font-serif text-3xl text-slate-800">Contact Information</h3>
 
                 <div class="mt-8 space-y-6 text-slate-600">
                     <div>
@@ -460,7 +362,7 @@
 
                     <div>
                         <p class="text-xs uppercase tracking-[0.18em] text-[#5F7F7B]">Location</p>
-                        <p class="mt-2">Location details coming soon</p>
+                        <p class="mt-2">Oakland, Ca</p>
                     </div>
 
                     <div>
